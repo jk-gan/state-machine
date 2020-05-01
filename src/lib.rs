@@ -1,3 +1,9 @@
+enum Status {
+    Pending,
+    Valid,
+    Suspended,
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
